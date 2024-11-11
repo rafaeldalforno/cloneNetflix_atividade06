@@ -1,0 +1,57 @@
+header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    width: 100%;
+    background: transparent;
+    transition: all ease 0.5s;
+}
+
+header.black {
+    background-color: #141414;
+}
+
+.search-input {
+    width: 0;
+    height: 30px;
+    padding: 0;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    transition: width 0.3s ease, padding 0.3s ease;
+    opacity: 0;
+    background-color: #333;
+    color: white;
+}
+
+.search-input.visible {
+    width: 200px;
+    padding: 0 10px;
+    opacity: 1;
+}
+
+.search-results {
+    background-color: #333; 
+    color: #fff; 
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;
+    top: 40px; 
+    left: 0;
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto; 
+    z-index: 1000;
+}
+
+.search-results .modal-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-results .modal-item:hover {
+    background-color: #555; 
+}
