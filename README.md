@@ -1,7 +1,8 @@
  <h1>Atividade 6 - Criação de um Clone Front-end da Netflix</h1>
 
 - Projeto totalmente feito para fins educacionais.
-- Você pode acessar a aplicação através do link: https://clone-net-flix-rafaeldalforno.netlify.app/
+- Você pode acessar a aplicação através do deploy no netlify: https://clone-net-flix-rafaeldalforno.netlify.app/
+- Ou pode acessar o app através do deploy na vercel: https://clone-net-flix-rafaeldalforno.vercel.app/
 - Para fazer o "login", forneça o e-mail "admin@test.com" e a senha "12345".
 
 <hr/>
